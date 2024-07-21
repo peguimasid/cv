@@ -1,249 +1,142 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Guilhermo Masid",
+  initials: "GM",
+  location: "Rio de Janeiro, Brazil",
+  locationLink: "https://www.google.com/maps/place/Volta+Redonda",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Full Stack Software Engineer dedicated to building high-quality products.",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Full Stack Software Engineer, I specialize in taking products from concept to launch. I excel in creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, and Node.js. I have over 5 years of experience working remotely with companies worldwide.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/54289589?v=4",
+  personalWebsiteUrl: "https://masid.dev",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "guilhermomasid@gmail.com",
+    tel: "+5524988395623",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/peguimasid",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/guilhermomasid/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/guilhermo_masid",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "École 42",
+      degree:
+        "Software Engineering - Intensive, project-based learning with emphasis on peer-to-peer and hands-on experience",
+      start: "2022",
+      end: "2025",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
+      company: "Daktus",
+      link: "https://daktus.com.br",
       badges: ["Remote"],
-      title: "Software Architect",
-      start: "2024",
+      title: "Full Stack Developer",
+      start: "2020",
       end: null,
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+        "Implemented new features, improved code delivery process, and initiated migration from MUI Styles to Tailwind CSS. Technologies: React, TypeScript, Node.js",
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Alltomatize",
+      link: "https://alltomatize.com.br/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
+      title: "Full Stack Developer",
+      start: "2023",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
-      description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
+        "Leading the development of the Alltomatize platform. Technologies: React, TypeScript, Node.js",
     },
   ],
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
-  ],
+  skills: ["JavaScript", "TypeScript", "React/Next.js", "Node.js"],
   projects: [
     {
-      title: "Parabol",
+      title: "Task-it",
       techStack: [
         "Full Stack Developer",
         "TypeScript",
-        "React",
+        "React/Next",
         "Node.js",
-        "GraphQL",
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+      description: "Keep project management simple as should be.",
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://tt.masid.dev/",
       },
     },
     {
-      title: "Evercast",
+      title: "Daktus",
+      techStack: ["Full Stack Developer", "TypeScript", "React", "Node.js"],
+      description:
+        "Reducing avoidable deaths by training healthcare professionals.",
+      link: {
+        label: "daktus.com.br",
+        href: "https://daktus.com.br/",
+      },
+    },
+    {
+      title: "Avante",
+      techStack: ["Full Stack Developer", "TypeScript", "React", "Node.js"],
+      description:
+        "Manage orders, deliveries, and accounts with different user roles.",
+      link: {
+        label: "avante.com.br",
+        href: "https://develop.avanteb2b.com.br",
+      },
+    },
+    {
+      title: "Go-Barber",
       techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
+        "Full Stack Developer",
+        "Javascript",
         "React",
+        "React Native",
         "Node.js",
-        "GraphQL",
       ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "Personal website and blog. Built with Next.js and Notion API",
+      description: "Easily schedule and manage haircuts with barbers.",
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://github.com/peguimasid/GoBarber-Mobile",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers, and planners generator",
+      title: "Challenges",
+      techStack: ["Javascript", "Typescript", "Problem-solving"],
+      description: "Over 800 solved coding problems from various websites.",
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "github.com",
+        href: "https://github.com/peguimasid/Challenges",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
+      title: "Yelp Camp",
+      techStack: [
+        "Full Stack Developer",
+        "Javascript",
+        "React/Next",
+        "Node.js",
+        "MongoDB",
+      ],
+      description: "Discover and contribute new campgrounds.",
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "github.com",
+        href: "https://yc.masid.dev/",
       },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
     },
   ],
 } as const;
