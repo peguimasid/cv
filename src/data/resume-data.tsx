@@ -57,8 +57,8 @@ export const RESUME_DATA = {
       link: "https://alltomatize.com.br/",
       badges: ["Remote"],
       title: "Full Stack Developer",
-      start: "2023",
-      end: "2021",
+      start: "2021",
+      end: "2023",
       description:
         "Leading the development of the Alltomatize platform. Technologies: React, TypeScript, Node.js",
     },
