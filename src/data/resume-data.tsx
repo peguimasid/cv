@@ -34,18 +34,18 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "École 42 - Common Core",
-      degree:
-        "A two-year foundational program emphasizing project-based learning and collaboration. The curriculum covers essential software engineering topics: algorithms, data structures, networks, and operating systems. This stage builds autonomy, critical thinking, and practical problem-solving skills. It simulates real-world engineering environments, fostering both individual initiative and teamwork.",
-      start: "2022",
-      end: "2024",
-    },
-    {
       school: "École 42 - Advanced Specialization",
       degree:
         "An advanced program with specializations across various computer programming fields. I chose to focus on Artificial Intelligence and low-level programming, delving into algorithmic design, assembly language, and systems optimization. This path sharpens skills in complex problem-solving, computational efficiency, and scalable systems architecture, preparing for impactful roles in software engineering.",
       start: "2024",
       end: null,
+    },
+    {
+      school: "École 42 - Common Core",
+      degree:
+        "A two-year foundational program emphasizing project-based learning and collaboration. The curriculum covers essential software engineering topics: algorithms, data structures, networks, and operating systems. This stage builds autonomy, critical thinking, and practical problem-solving skills. It simulates real-world engineering environments, fostering both individual initiative and teamwork.",
+      start: "2022",
+      end: "2024",
     },
   ],
   work: [
