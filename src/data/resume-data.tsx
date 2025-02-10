@@ -85,7 +85,6 @@ export const RESUME_DATA = {
     { name: "Python", url: "https://www.python.org/" },
     { name: "AWS", url: "https://aws.amazon.com/" },
     { name: "Elixir", url: "https://elixir-lang.org/" },
-    { name: "Go", url: "https://golang.org/" },
     { name: "Express", url: "https://expressjs.com/" },
     { name: "Nest.js", url: "https://nestjs.com/" },
     { name: "Adonis.js", url: "https://adonisjs.com/" },
