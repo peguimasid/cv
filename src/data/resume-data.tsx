@@ -57,7 +57,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: null,
       description:
-        "Led key features, optimized code workflows, and introduced Tailwind CSS for improved UI efficiency. Developed scalable microservices, including one that dynamically renders Notion page content and another that structures and generates medical reports stored on S3. Tech stack: React, TypeScript, Node.js, AWS, Elixir, Go.",
+        "Led key features, optimized code workflows, and introduced Tailwind CSS for improved UI efficiency. Developed scalable microservices, including one that dynamically renders Notion page content and another that structures and generates medical reports stored on S3. Tech stack: React, TypeScript, Node.js, AWS, Elixir.",
     },
     {
       company: "Alltomatize",
