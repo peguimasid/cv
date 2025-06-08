@@ -128,26 +128,6 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Daktus",
-      techStack: ["Elixir", "Phoenix", "React", "TypeScript", "Electron"],
-      description:
-        "Clinical Decision Support System implementing medical protocols to reduce errors and costs",
-      link: {
-        label: "daktus.com.br",
-        href: "https://daktus.com.br/",
-      },
-    },
-    {
-      title: "ChatX",
-      techStack: ["Elixir", "Phoenix", "LiveView", "Real-time"],
-      description:
-        "Minimal real-time chat application showcasing Phoenix LiveView capabilities",
-      link: {
-        label: "chat.masid.dev",
-        href: "https://chat.masid.dev",
-      },
-    },
-    {
       title: "Task-it",
       techStack: ["TypeScript", "React", "Next.js", "Node.js"],
       description:
@@ -158,23 +138,13 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "YelpCamp",
-      techStack: ["JavaScript", "React", "Next.js", "Node.js", "MongoDB"],
+      title: "ChatX",
+      techStack: ["Elixir", "Phoenix", "LiveView", "Real-time"],
       description:
-        "Community-driven platform for discovering and reviewing campgrounds worldwide",
+        "Minimal real-time chat application showcasing Phoenix LiveView capabilities",
       link: {
-        label: "yc.masid.dev",
-        href: "https://yc.masid.dev/",
-      },
-    },
-    {
-      title: "GoBarber",
-      techStack: ["JavaScript", "React", "React Native", "Node.js"],
-      description:
-        "Full-stack barbershop appointment management system with mobile app",
-      link: {
-        label: "github.com",
-        href: "https://github.com/peguimasid/GoBarber-Mobile",
+        label: "chat.masid.dev",
+        href: "https://chat.masid.dev",
       },
     },
     {
