@@ -4,11 +4,18 @@ export const RESUME_DATA = {
   name: "Guilhermo Masid",
   initials: "GM",
   location: "Rio de Janeiro, Brazil",
-  locationLink: "https://www.google.com/maps/place/Volta+Redonda",
+  locationLink: "https://www.google.com/maps/place/Rio+de+Janeiro",
   about:
-    "Full Stack Software Engineer dedicated to building high-quality products that make a meaningful impact.",
-  summary:
-    "Experienced Full Stack Engineer skilled at transforming ideas into scalable, high-performance products. I have a strong foundation in both front-end and back-end technologies, specializing in TypeScript, React, and Node.js. With over 5 years in remote collaboration, I’m adept at creating streamlined, user-focused solutions that drive success for global teams.",
+    "Detail-oriented Full Stack Engineer dedicated to building high-quality products that make a meaningful impact.",
+  summary: (
+    <>
+      Experienced Full Stack Engineer specializing in scalable React
+      applications, robust backend services with Node.js and Elixir, delivering
+      complete end-to-end solutions. Skilled at transforming ideas into
+      high-performance products with expertise spanning both front-end and
+      back-end technologies, particularly in the TypeScript ecosystem.
+    </>
+  ),
   avatarUrl: "https://avatars.githubusercontent.com/u/54289589?v=4",
   personalWebsiteUrl: "https://masid.dev",
   contact: {
@@ -36,14 +43,14 @@ export const RESUME_DATA = {
     {
       school: "École 42 - Advanced Specialization",
       degree:
-        "An advanced program with specializations across various computer programming fields. I chose to focus on Artificial Intelligence and low-level programming, delving into algorithmic design, assembly language, and systems optimization. This path sharpens skills in complex problem-solving, computational efficiency, and scalable systems architecture, preparing for impactful roles in software engineering.",
+        "Advanced program with specializations in Artificial Intelligence and low-level programming",
       start: "2024",
       end: null,
     },
     {
       school: "École 42 - Common Core",
       degree:
-        "A two-year foundational program emphasizing project-based learning and collaboration. The curriculum covers essential software engineering topics: algorithms, data structures, networks, and operating systems. This stage builds autonomy, critical thinking, and practical problem-solving skills. It simulates real-world engineering environments, fostering both individual initiative and teamwork.",
+        "Two-year foundational program in software engineering with project-based learning",
       start: "2022",
       end: "2024",
     },
@@ -52,124 +59,132 @@ export const RESUME_DATA = {
     {
       company: "Daktus",
       link: "https://daktus.com.br",
-      badges: ["Remote"],
+      badges: ["Remote", "Elixir", "React", "TypeScript", "Healthcare"],
       title: "Full Stack Developer",
       start: "2020",
       end: null,
-      description:
-        "Led key features, optimized code workflows, and introduced Tailwind CSS for improved UI efficiency. Developed scalable microservices, including one that dynamically renders Notion page content and another that structures and generates medical reports stored on S3. Tech stack: React, TypeScript, Node.js, AWS, Elixir.",
+      description: (
+        <>
+          Leading development of a multi-platform Clinical Decision Support
+          System (CDSS) for healthcare professionals.
+          <ul className="list-inside list-disc">
+            <li>
+              Built microservices with Elixir and TypeScript for healthcare data
+              processing
+            </li>
+            <li>
+              Developed React/TypeScript apps across Web, Desktop, and Chrome
+              extensions
+            </li>
+            <li>
+              Implemented healthcare protocols to reduce medical errors and
+              costs
+            </li>
+          </ul>
+        </>
+      ),
     },
     {
       company: "Alltomatize",
       link: "https://alltomatize.com.br/",
-      badges: ["Remote"],
+      badges: ["Remote", "React", "TypeScript", "Node.js"],
       title: "Full Stack Developer",
       start: "2021",
       end: "2023",
-      description:
-        "Spearheaded the full-stack development of a robust platform tailored for pharmacies, with multi-role dashboards for clients, administrators, and providers. Built with a focus on scalability and ease of use. Tech stack: React, TypeScript, Node.js.",
+      description: (
+        <>
+          Spearheaded full-stack development of a comprehensive pharmacy
+          management platform.
+          <ul className="list-inside list-disc">
+            <li>
+              Built multi-role dashboards for clients, administrators, and
+              providers
+            </li>
+            <li>Focused on scalability and user experience optimization</li>
+            <li>
+              Delivered robust platform tailored for pharmaceutical industry
+              needs
+            </li>
+          </ul>
+        </>
+      ),
     },
   ],
   skills: [
-    {
-      name: "JavaScript",
-      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-    },
-    { name: "TypeScript", url: "https://www.typescriptlang.org/" },
-    { name: "React/Next.js", url: "https://reactjs.org/" },
-    { name: "Node.js", url: "https://nodejs.org/" },
-    {
-      name: "C/C++",
-      url: "https://en.wikipedia.org/wiki/C_(programming_language)",
-    },
-    { name: "Python", url: "https://www.python.org/" },
-    { name: "AWS", url: "https://aws.amazon.com/" },
-    { name: "Elixir", url: "https://elixir-lang.org/" },
-    { name: "Express", url: "https://expressjs.com/" },
-    { name: "Nest.js", url: "https://nestjs.com/" },
-    { name: "Adonis.js", url: "https://adonisjs.com/" },
-    { name: "React Native", url: "https://reactnative.dev/" },
-    { name: "Plasmo", url: "https://www.plasmo.com/" },
-    { name: "PostgreSQL", url: "https://www.postgresql.org/" },
-    { name: "MongoDB", url: "https://www.mongodb.com/" },
-    { name: "Git", url: "https://git-scm.com/" },
-    { name: "GitHub", url: "https://github.com/" },
-    { name: "Docker", url: "https://www.docker.com/" },
-    { name: "Vitest", url: "https://vitest.dev/" },
-    { name: "Figma", url: "https://www.figma.com/" },
+    "JavaScript/TypeScript",
+    "React/Next.js",
+    "Node.js/Express",
+    "Elixir/Phoenix",
+    "C/C++",
+    "Python",
+    "React Native",
+    "PostgreSQL/MongoDB",
+    "AWS",
+    "Docker",
+    "Git/GitHub",
+    "Chrome Extensions",
+    "Electron",
+    "System Architecture",
   ],
   projects: [
     {
-      title: "Task-it",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React/Next",
-        "Node.js",
-      ],
-      description: "A minimal project management tool.",
-      link: {
-        label: "github.com",
-        href: "https://tt.masid.dev/",
-      },
-    },
-    {
       title: "Daktus",
-      techStack: ["Full Stack Developer", "TypeScript", "React", "Node.js"],
+      techStack: ["Elixir", "Phoenix", "React", "TypeScript", "Electron"],
       description:
-        "Healthcare platform implementing protocols during appointments to reduce errors and costs.",
+        "Clinical Decision Support System implementing medical protocols to reduce errors and costs",
       link: {
         label: "daktus.com.br",
         href: "https://daktus.com.br/",
       },
     },
     {
-      title: "Avante",
-      techStack: ["Full Stack Developer", "TypeScript", "React", "Node.js"],
+      title: "ChatX",
+      techStack: ["Elixir", "Phoenix", "LiveView", "Real-time"],
       description:
-        "Platform for managing orders, deliveries, and accounts across user roles.",
+        "Minimal real-time chat application showcasing Phoenix LiveView capabilities",
       link: {
-        label: "avante.com.br",
-        href: "https://develop.avanteb2b.com.br",
+        label: "chat.masid.dev",
+        href: "https://chat.masid.dev",
       },
     },
     {
-      title: "Go-Barber",
-      techStack: [
-        "Full Stack Developer",
-        "Javascript",
-        "React",
-        "React Native",
-        "Node.js",
-      ],
-      description: "App for managing barbershop appointments.",
+      title: "Task-it",
+      techStack: ["TypeScript", "React", "Next.js", "Node.js"],
+      description:
+        "Minimal project management tool with clean interface and essential features",
+      link: {
+        label: "tt.masid.dev",
+        href: "https://tt.masid.dev/",
+      },
+    },
+    {
+      title: "YelpCamp",
+      techStack: ["JavaScript", "React", "Next.js", "Node.js", "MongoDB"],
+      description:
+        "Community-driven platform for discovering and reviewing campgrounds worldwide",
+      link: {
+        label: "yc.masid.dev",
+        href: "https://yc.masid.dev/",
+      },
+    },
+    {
+      title: "GoBarber",
+      techStack: ["JavaScript", "React", "React Native", "Node.js"],
+      description:
+        "Full-stack barbershop appointment management system with mobile app",
       link: {
         label: "github.com",
         href: "https://github.com/peguimasid/GoBarber-Mobile",
       },
     },
     {
-      title: "Challenges",
-      techStack: ["Javascript", "Typescript", "Problem-solving"],
-      description: "Over 800 coding problems solved across various platforms.",
+      title: "Coding Challenges",
+      techStack: ["JavaScript", "TypeScript", "Algorithms", "Problem Solving"],
+      description:
+        "Collection of 800+ solved coding problems across various platforms demonstrating algorithmic thinking",
       link: {
         label: "github.com",
         href: "https://github.com/peguimasid/Challenges",
-      },
-    },
-    {
-      title: "Yelp Camp",
-      techStack: [
-        "Full Stack Developer",
-        "Javascript",
-        "React/Next",
-        "Node.js",
-        "MongoDB",
-      ],
-      description: "Community-driven platform for discovering campgrounds.",
-      link: {
-        label: "github.com",
-        href: "https://yc.masid.dev/",
       },
     },
   ],
